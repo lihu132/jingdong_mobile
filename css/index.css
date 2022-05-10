@@ -8,7 +8,6 @@ body {
     font-family: -apple-system, Arial, Helvetica, sans-serif;
     line-height: 1.5;
     color: #666;
-
 }
 
 * {
@@ -24,15 +23,14 @@ a {
     -webkit-touch-callout: none;
 }
 
-
 a {
     color: #666;
     text-decoration: none;
 }
 
 
-
 /* 顶部 */
+
 .app {
     height: 45px;
 }
@@ -83,8 +81,8 @@ img {
 }
 
 
-
 /* 搜索 */
+
 .search-wrap {
     position: fixed;
     height: 44px;
@@ -123,7 +121,6 @@ img {
     width: 1px;
     height: 15px;
     background-color: #ccc;
-
 }
 
 .sou {
@@ -166,7 +163,6 @@ img {
     margin: 14px 0 0 15px;
 }
 
-
 .search-login {
     position: absolute;
     top: 0;
@@ -176,18 +172,21 @@ img {
     text-align: center;
     line-height: 44px;
     color: #fff;
-
 }
 
 
 /* 主题内容 */
 
+
 /* 滑动图 */
+
 .slider img {
     width: 100%;
 }
 
+
 /* 复制swiper css样式 */
+
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -197,7 +196,6 @@ img {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -213,8 +211,13 @@ img {
     align-items: center;
 }
 
+.swiper-pagination-bullet {
+    background: #fff !important;
+}
+
 
 /* 品牌日 */
+
 .brand {
     border-radius: 10px 10px 0 0;
     overflow: hidden;
@@ -228,6 +231,7 @@ img {
 .brand div img {
     width: 100%;
 }
+
 
 /* 导航栏 */
 
@@ -255,7 +259,6 @@ img {
 
 .news {
     margin-top: 20px;
-
 }
 
 .news a {
@@ -270,7 +273,6 @@ img {
 .news a img {
     width: 100%;
 }
-
 
 .news a:nth-child(n+2) {
     width: 25%;
